@@ -19,9 +19,9 @@ header {
 
 .menu {
   display: flex;
-  align-items: center;
   gap: 4rem;
   padding-right: 5rem;
+  padding-top: 4rem;
 }
 
 a {
@@ -63,6 +63,21 @@ main {
   z-index: -1;
 }
 
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  gap: 2rem;
+}
+
+.h2-index {
+  color: black;
+  font-size: 2.5rem;
+  font-family: "Inria Serif", serif;
+}
+
 .me {
   padding-top: 10rem;
   display: flex;
@@ -80,18 +95,21 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 22.5%;
+  width: 21%;
 }
 
 h3 {
   font-size: 3rem;
   font-family: "Figtree", sans-serif;
+  padding-bottom: 1rem;
 }
 
 .parrafo {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   text-align: center;
+  padding-bottom: 2rem;
+  line-height: 1.25;
 }
 
 .iconos {
@@ -99,11 +117,11 @@ h3 {
   flex-direction: row;
   gap: 2rem;
   justify-content: center;
-  padding: 2rem 0rem 3rem;
+  padding: 1.3rem;
 }
 
 .icono {
-  width: 30px;
+  width: 25px;
   transition: all 0.25s ease-in-out;
 }
 
@@ -112,7 +130,7 @@ h3 {
   cursor: pointer;
 }
 
-button {
+.button {
   /* background-color: #CA9EAD; */
   background-color: #d6b981;
   color: white;
@@ -125,7 +143,7 @@ button {
   transition: all 0.7s ease-in-out;
 }
 
-button:hover {
+.button:hover {
   background-color: rgba(214, 185, 129, 0.7);
   color: white;
   transform: scale(1.15);
@@ -133,7 +151,7 @@ button:hover {
   cursor: pointer;
 }
 
-.ventajas {
+.ventajas, .pasos {
   background-color: #fafafa;
   display: flex;
   flex-direction: row;
@@ -145,12 +163,20 @@ button:hover {
   margin-top: 3rem;
 }
 
+.pasos {
+  margin-top: 0;
+  height: 45vh;
+  background-color: white;
+}
+
 .caja {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 15%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .iconoCaja {
@@ -163,6 +189,7 @@ h4 {
   font-size: 1.5rem;
   padding-bottom: 1.5rem;
   font-family: "Figtree", sans-serif;
+  font-weight: normal;
 }
 
 .boton-container {
@@ -175,16 +202,75 @@ h4 {
   padding-bottom: 2.5rem;
 }
 
+.image-transparent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.p-trans {
+  font-family: "Figtree", serif;
+  font-size: 3rem;
+  color: #d6b981;
+  font-weight: normal;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact-text {
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding-left: 7rem;
+}
+
+#contacto2 {
+  width: 100%;
+}
+
+.contact-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+.contact-h4,
+.contact-p {
+  font-family: "Figtree", serif;
+}
+
+.contact-h4 {
+  font-size: 1.7rem;
+}
+
+.contact-p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
 /* Footer */
 
 footer {
   display: flex;
   justify-content: center;
-  background-color: lightgray;
+  background-color: #fafafa;
+  align-items: center;
 }
 
 #logo-footer {
-  width: 6.5rem;
+  width: 5rem;
 }
 
 .footer-row {
@@ -196,12 +282,12 @@ footer {
 
 .footer-parrafo {
   font-family: "Figtree", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
 }
 
 /* Contacto */
 
-.image-container h2 {
+.h2-contacto {
   position: absolute;
   top: 20%;
   right: 7.5%;

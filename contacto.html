@@ -6,10 +6,13 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
@@ -31,47 +34,73 @@
       <div class="menu">
         <a class="lista" href="index.html">Inicio</a>
         <a class="lista" href="sobre.html">Sobre mi</a>
-        <a class="lista" href="metodo.html">Metodología</a>
+        <a class="lista" href="sesiones.html">Sesiones</a>
         <a class="selected" href="contacto.html">Contacto</a>
       </div>
     </header>
     <main>
       <div class="image-container">
-        <h2>Empieza tu nueva vida, ahora</h2>
+        <h2 class="h2-contacto">Empieza tu nueva vida, ahora</h2>
         <form>
-        <input type="text" id="name" name="name" placeholder="Tu nombre"/>
-        <input type="email" id="email" name="email" placeholder="Tu correo electrónico"/>
-        <input type="text" id="asunto" name="asunto" placeholder="Asunto del correo"/>
-        <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje"></textarea>
+          <input type="text" id="name" name="name" placeholder="Tu nombre" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Tu correo electrónico"
+          />
+          <input
+            type="text"
+            id="asunto"
+            name="asunto"
+            placeholder="Asunto del correo"
+          />
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            placeholder="Tu mensaje"
+          ></textarea>
         </form>
         <img id="principal" alt="Imagen Desiree" src="img/contacto.jpg" />
       </div>
-      <div class="me">
-        <img id="yo" src="img/yoAlt.jpg" alt="Desiree primer plano" />
-        <div class="text">
-          <h3>Otros métodos de contacto</h3>
+      <div class="pasos">
+        <div class="caja">
+          <img src="img/iconos/dialogo.png" class="iconoCaja" alt="Diálogo"/>
+          <h4>Primer contacto</h4>
           <p class="parrafo">
-            También puedes contactar por Telegram o a través de mis redes sociales.
+            Cuando contactes conmigo a través de mi formulario, hablaremos de lo
+            que quieres trabajar y si puedo ayudarte (¡seguro que si!).
           </p>
-          <div class="iconos">
-            <img class="icono" src="img/rrss/instagram.png" alt="Mi instagram" />
-            <img class="icono" src="img/rrss/tiktok.png" alt="Mi tiktok" />
-            <img class="icono" src="img/rrss/telegram2.png" alt="Mi telegram" />
-            <img class="icono" src="img/rrss/facebook.png" alt="Mi facebook" />
-          </div>
+        </div>
+        <div class="caja">
+          <img src="img/iconos/llamada.png" class="iconoCaja" alt="Teléfono" />
+          <h4>Te llamo</h4>
+          <p class="parrafo">
+            El día y hora acordados, te llamaré y podremos hablar en profundidad para entender
+            tus necesidades y explicarte como podemos trabajar y sacar tu mejor versión.
+          </p>
+        </div>
+        <div class="caja">
+          <img src="img/iconos/personas.png" class="iconoCaja" alt="Personas interactuando" />
+          <h4>Empezamos a trabajar</h4>
+          <p class="parrafo">
+            Una vez todas tus dudas estén resueltas y estés totalmente satisfecho o satisfecha, 
+            es el momento de nuestra primera sesión.
+          </p>
         </div>
       </div>
     </main>
     <footer>
       <div class="footer-row">
         <img id="logo-footer" src="img/logo.png" />
-        <p class="footer-parrafo">Copyright © 2024 | Desiree Rubiera Cisneros</p>
-      <div class="iconos">
-        <img class="icono" src="img/rrss/instagram.png" alt="Mi instagram" />
-        <img class="icono" src="img/rrss/tiktok.png" alt="Mi tiktok" />
-        <img class="icono" src="img/rrss/telegram2.png" alt="Mi telegram" />
-        <img class="icono" src="img/rrss/facebook.png" alt="Mi facebook" />
-      </div>
+        <p class="footer-parrafo">
+          Copyright © 2024 | Desiree Rubiera Cisneros
+        </p>
+        <div class="iconos">
+          <img class="icono" src="img/rrss/instagram.png" alt="Mi instagram" />
+          <img class="icono" src="img/rrss/tiktok.png" alt="Mi tiktok" />
+          <img class="icono" src="img/rrss/facebook.png" alt="Mi facebook" />
+        </div>
       </div>
     </footer>
   </body>
