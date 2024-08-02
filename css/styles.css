@@ -75,11 +75,13 @@ main {
 .h2-index {
   color: black;
   font-size: 2.5rem;
-  font-family: "Inria Serif", serif;
+  font-family: "Montserrat", serif;
+  font-weight: normal;
 }
 
-.me {
-  padding-top: 10rem;
+.me, .sobre, .formacion {
+  padding-top: 12rem;
+  padding-bottom: 8rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -90,7 +92,7 @@ main {
   width: 20%;
 }
 
-.text {
+.text, .sobreMi, .formacionText {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -160,7 +162,7 @@ h3 {
   width: 100%;
   height: 40vh;
   gap: 8rem;
-  margin-top: 3rem;
+  padding-top: 1.5rem;
 }
 
 .pasos {
@@ -191,6 +193,39 @@ h4 {
   font-family: "Figtree", sans-serif;
   font-weight: normal;
 }
+
+/* Sobre mí */
+
+.sobre {
+  width: 100%;
+}
+
+.sobreMi {
+  width: 30%;
+}
+
+#sobreImg, #titulo {
+  width: 35%;
+}
+
+.formacion {
+  background-color: #ecd5a6;
+}
+
+.formacionText {
+  width: 30%;
+}
+
+.formacionList {
+  font-family: "Figtree", sans-serif ;
+  font-size: 1.3rem;
+}
+
+#titulo {
+  width: 30%;
+}
+
+/* Contacto */
 
 .boton-container {
   display: flex;
@@ -265,7 +300,7 @@ h4 {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #fafafa;
+  background-color: #eceaea;
   align-items: center;
 }
 
