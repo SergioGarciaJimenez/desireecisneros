@@ -79,7 +79,7 @@ main {
   font-weight: normal;
 }
 
-.me, .sobre, .formacion {
+.me, .sobre {
   padding-top: 12rem;
   padding-bottom: 8rem;
   display: flex;
@@ -92,7 +92,7 @@ main {
   width: 20%;
 }
 
-.text, .sobreMi, .formacionText {
+.text, .sobreMi {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,6 +104,7 @@ h3 {
   font-size: 3rem;
   font-family: "Figtree", sans-serif;
   padding-bottom: 1rem;
+  font-weight: normal;
 }
 
 .parrafo {
@@ -209,16 +210,30 @@ h4 {
 }
 
 .formacion {
-  background-color: #ecd5a6;
-}
-
-.formacionText {
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  background-color: #fafafa;
 }
 
 .formacionList {
-  font-family: "Figtree", sans-serif ;
-  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.cajaFormacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 22.5%;
 }
 
 #titulo {
